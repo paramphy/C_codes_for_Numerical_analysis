@@ -1,0 +1,2 @@
+language = "cpp"
+run = "git clone https://github.com/paramphy/C-Code-Collection.git"
