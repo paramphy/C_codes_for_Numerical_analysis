@@ -8,6 +8,7 @@ float func(float x)
 {
   return(x*x*x-5*x*x+6);
 }
+
 float funcprime(float x)
 {
   return(3*x*x-10*x);
