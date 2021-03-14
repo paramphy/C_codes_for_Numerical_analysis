@@ -64,13 +64,17 @@ int main()
         y1 = y0 + del_y;
         x0 = x1;
         y0 = y1;
+        cout<<x0<<'\t'<<y0<<endl;
       }
-      while(abs(g(x0,y0))>0.0001 || abs(h(x0,y0))>0.0001);
-      cout<<"the root is "<<x0<<" +i("<<y0<<") "<<det<<endl;
-      if(abs(x0+0.0)<0.001 && abs(y0+1.0)<0.001)
-        out1<<x3<<" "<<y3<<endl;
-      if(abs(x0+0.0)<0.001 && abs(y0-1.0)<0.001)
-        out2<<x3<<" "<<y3<<endl;
+      while(abs(del_x)>0.00001 || abs(del_y)>0.00001);
+      cout<<'End of itteration 1'<<endl;
     }
+    cout<<'end of itteration 2'<<endl;
   }
+  cout<<"the root is "<<x0<<" +i("<<y0<<") "<<denom<<endl;
+  if(abs(x0+0.0)<0.001 && abs(y0)<0.001)
+  out1<<x3<<" "<<y3<<endl;
+  if(abs(x0+0.0)<0.001 && abs(y0)<0.001)
+  out2<<x3<<" "<<y3<<endl;
 }
+
