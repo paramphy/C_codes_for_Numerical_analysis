@@ -16,7 +16,7 @@ struct two_numbers{
 //Function to calculate the equation
 float func(float x)
 {
-    return(x*x-8*x+6);
+    return(x*x-60000);
 }
 
 //root guessing function
@@ -27,7 +27,7 @@ two_numbers root_ini()
   two_numbers two;
   two.x=0;
   two.y=0;
-  for(x=-1000;x<=1000;x=x+.5)
+  for(x=-10000;x<=10000;x=x+.5)
   {
     if(func(x-.1)*func(x+.1)<0)
     {
