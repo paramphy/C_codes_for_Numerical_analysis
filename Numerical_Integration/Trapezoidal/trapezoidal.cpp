@@ -31,4 +31,4 @@ int main(void)
   }
   area=h*(func(a)+func(b)+2*sum)/2;
   cout<<"The resultent area: "<<area<<endl;
-}
+  }
