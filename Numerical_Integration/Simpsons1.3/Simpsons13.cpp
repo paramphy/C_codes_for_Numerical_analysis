@@ -27,7 +27,7 @@ int main(void)
     y[i]=f(x[i]);
     out1<<x[i]<<" \t"<<y[i]<<endl;
   }
-  s1=f(a)+f(b);
+  s1=f(a)+f(b)+4*f(a+h);
   for(i=3;i<=n;i=i+2)
   {
     s2=s2+4*f(a+i*h);
