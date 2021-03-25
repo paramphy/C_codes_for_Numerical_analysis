@@ -86,9 +86,9 @@ int main()
     for(y=-2;y<=2;y=y+0.01)
     {
       two = new_rap_img(x, y);
-      if(two.x==1 && )
+      if(two.x>0.6)
         out0<<x<<"\t"<<y<<"\t"<<two.x<<"\t"<<two.y<<endl;
-      else if(two.x!=1 && two.y<0)
+      else if(two.x*two.y<0)
         out1<<x<<"\t"<<y<<"\t"<<two.x<<"\t"<<two.y<<endl;
       else
         out2<<x<<"\t"<<y<<"\t"<<two.x<<"\t"<<two.y<<endl;
