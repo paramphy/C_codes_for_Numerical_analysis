@@ -6,13 +6,13 @@ using namespace std;
 
 float f(float x)
 {
-  return(sin(x));
+  return(pow((1/x),(3/2)));
 }
 
 int main(void)
 {
   int n,i;
-  float a,b,h,x[100],y[100],s,s1,s2=0,s3=0;
+  float a,b,h,x[1000],y[1000],s,s1,s2=0,s3=0;
   cout<<"Give the \n lower limit: ";
   ofstream out1("simp13.out");
   cin>>a;
