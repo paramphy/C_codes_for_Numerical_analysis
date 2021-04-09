@@ -2,12 +2,14 @@
 
 ## Books
 
-## Numerical root finding
+## Interpolation
+
+## Root finding
 - Bisection
 - Newton-Raphson method
 - Newton-Raphson method for imaginary roots
 - Newton's fractal
 
-## Numerical Intregation
+## Intregation
 - Trapizoidal method
 - Simpson's 1/3 method
