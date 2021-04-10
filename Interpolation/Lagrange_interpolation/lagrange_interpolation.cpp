@@ -7,16 +7,15 @@ using namespace std;
 int main(void)
 {
   int i,j,n=0;
-  float x[100],y[100],h,xnew,ynew,p;
-  ifstream in("lagrange.in");
+  float x[100],y[100],xnew,ynew, term = 1, change;
+  ifstream in("input.txt");
   while(in>>x[n]>>y[n])
     n++;
   cout<<"No of data point n = "<<n<<endl;
   for(i=0;i<n;i++)
-  cout<<x[i]<<" "<<y[i]<<endl;
+  cout<<x[i]<<"\t"<<y[i]<<endl;
   cout<<"Enter the value of x where we want to calculate y: ";
   cin>>xnew;
-  float term,chenge;
   ynew=0.0;
   for(i=0;i<n;i++)
   {
@@ -26,9 +25,11 @@ int main(void)
       if(i!=j)
       term=term*((xnew-x[j])/(x[i]-x[j]));
     }
-    chenge=term*y[i];
-    ynew = ynew + chenge;
+    change=term*y[i];
+    ynew = ynew + change;
   }
-  cout<<"xnew = "<<xnew<<"\t ynew = "<<ynew<<endl;
+  cout<<"-----------------------------------------"<<endl;
+  cout<<"Result"<<endl;
+  cout<<"x = "<<xnew<<"\t y = "<<ynew<<endl;
   return 0;
 }
