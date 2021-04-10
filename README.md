@@ -3,14 +3,16 @@
 ## Books
 
 ## Interpolation
+- [Newton interpolation](Interpolation/Newton_interpolation/)
+- [Lagrange interpolation](Interpolation/Lagrange_interpolation/)
 
 ## Root finding
 - [Bisection](Root_finding/bisection/)
-- [Newton-Raphson method](Root_finding/Newton-Raphson/newton-raphson.cpp)
-- [Newton-Raphson method for imaginary roots](Root_finding/Newton-Raphson-Imaginary-root/newton-raphson-imaginary.cpp)
-- [Newton's fractal](Root_finding/newtons_fractal/newton_fractal.cpp)
+- [Newton-Raphson method](Root_finding/Newton-Raphson/)
+- [Newton-Raphson method for imaginary roots](Root_finding/Newton-Raphson-Imaginary-root/)
+- [Newton's fractal](Root_finding/newtons_fractal/)
 
 ## Intregation
-- [Trapizoidal method](Integration/Trapezoidal/trapezoidal.cpp)
-- [Simpson's 1/3 method](Integration/Simpsons1.3/Simpsons13.cpp)
-- [Monte Carlo method](Integration/MonteCarlo_method/montecarlo.cpp)
+- [Trapizoidal method](Integration/Trapezoidal/)
+- [Simpson's 1/3 method](Integration/Simpsons1.3/)
+- [Monte Carlo method](Integration/MonteCarlo_method/)
